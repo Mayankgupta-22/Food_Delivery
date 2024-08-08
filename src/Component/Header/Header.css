@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    width: 80px;
+    margin-left: 20px;
+
+}
+
+.nav-Item ul {
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-Item ul li {
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration-line: none;
+    cursor: pointer;
+
+
+}
+
+.nav-Item ul li:hover {
+    color: orangered;
+}
+
+.search {
+    margin-top: 5px;
+    padding: 20px;
+
+}
+
+.search input {
+    width: 400px;
+    height: 35.2px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+
+
+.search button {
+    margin-left: 5px;
+    padding: 5px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.login-btn {
+    margin: 20px;
+    padding: 2px;
+    width: 70px;
+    font-size: 20px;
+    ;
+
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,38 @@
+.body {
+    border-radius: 10px;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    gap: 5px;
+}
+
+.filter-btn {
+
+    margin: 20px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background: black;
+    color: white;
+
+}
+
+.filter-btn:hover {
+    background: rgb(199, 212, 223);
+    color: black;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+}
